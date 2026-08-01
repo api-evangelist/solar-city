@@ -1,7 +1,31 @@
 aid: solar-city
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solar-city.png
 name: Solar City
-description: Solar City is a company surfaced as a portfolio company of mayfield and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  SolarCity was a San Mateo, California based provider of residential and commercial
+  solar energy systems, founded in 2006 by brothers Peter and Lyndon Rive with backing
+  and board chairmanship from their cousin Elon Musk. The company designed, financed,
+  installed, and monitored rooftop solar and energy-storage systems, and became the
+  largest residential solar installer in the United States before its 2012 IPO
+  (NASDAQ: SCTY). In November 2016 SolarCity was acquired by Tesla, Inc. in an
+  all-stock deal valued at roughly 2.6 billion US dollars and was absorbed into
+  Tesla's energy-generation and storage business; the SolarCity brand was
+  subsequently retired and its products relaunched under Tesla (Solar Roof, Solar
+  Panels, Powerwall). SolarCity no longer operates as an independent company and
+  publishes no standalone developer portal, public API, or OpenAPI surface. The
+  solarcity.com domain remains registered under Tesla's DNS infrastructure but no
+  longer serves a live website.
 url: https://raw.githubusercontent.com/api-evangelist/solar-city/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,31 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-lifecycle: acquired
+x-acquired-by: tesla
+x-acquired-date: '2016-11-21'
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar
+- Energy
+- Renewable Energy
+- Residential Solar
+- Clean Energy
+- Solar Installation
+- Tesla
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
